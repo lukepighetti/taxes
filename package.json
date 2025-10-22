@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"start": "ts-node src/index.ts"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"fast-csv": "^5.0.5",
+		"openai": "^6.6.0",
+		"p-retry": "^7.1.0",
+		"zod": "^4.1.12"
+	}
+}

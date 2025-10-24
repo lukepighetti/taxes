@@ -14,11 +14,10 @@ Turns PDF Bank statements into a CSV file using AI. Tested with TD Bank statemen
 - fire `npm start`
 - get results in `./out/transactions-{timestamp}.csv`
 
-## Limitations
+## Notes
 
 - `./in` file structure has to be clean. No random files like `.DS_Store`
-- we are getting statement `beginningBalance` and `endingBalance` but not checking the transaction sum against it
-- currently >99% accurate but not 100%
+- retries up to 10 times per statement if there are out-of-balance or LLM errors
 
 ## Example
 
